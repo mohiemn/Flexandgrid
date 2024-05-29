@@ -1,0 +1,38 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.article {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.highlighted {
+    
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    overflow-y: auto;
+    max-height: 100px;
+    border: 2px solid black;
+}

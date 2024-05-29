@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: white;
+    font-size: 2em;
+}
+
+.first-part {
+    background-color: orange;
+}
+
+.second-part {
+    background-color: blue;
+}
